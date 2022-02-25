@@ -1,0 +1,26 @@
+{
+  "name": "heroku",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raymondcolor/ci.cdPipeline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raymondcolor/ci.cdPipeline/issues"
+  },
+  "homepage": "https://github.com/raymondcolor/ci.cdPipeline#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "epress": "0.0.1-security",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
